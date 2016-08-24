@@ -1,0 +1,16 @@
+{
+  "name": "the-fun-of-js",
+  "version": "0.0.1",
+  "description": "Functional and Promise based exercises",
+  "main": "check.js",
+  "scripts": {
+    "test": "tape ./tests/*.test.js | tap-bail | faucet"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "faucet": "0.0.1",
+    "tap-bail": "0.0.0",
+    "tape": "^4.6.0"
+  }
+}
